@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.application.layout.register"
+    tools:showIn="@layout/activity_register">
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView18"
+        android:layout_alignRight="@+id/textView18"
+        android:layout_below="@+id/phoneinput"
+        android:layout_marginTop="46dp"
+        android:onClick="onClick"
+        android:text="Welcome!" />
+
+    <EditText
+        android:id="@+id/nameinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignLeft="@+id/emailinput"
+        android:layout_alignStart="@+id/emailinput" />
+
+    <EditText
+        android:id="@+id/emailinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/nameinput"
+        android:layout_alignLeft="@+id/phoneinput"
+        android:layout_alignStart="@+id/phoneinput" />
+
+    <EditText
+        android:id="@+id/phoneinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:layout_below="@+id/emailinput"
+        android:layout_alignLeft="@+id/passwordinput"
+        android:layout_alignStart="@+id/passwordinput" />
+
+    <EditText
+        android:id="@+id/passwordinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/phoneinput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/icon"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload photo"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

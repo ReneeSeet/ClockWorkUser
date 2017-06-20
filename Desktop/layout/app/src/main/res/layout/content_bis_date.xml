@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.application.layout.bisDate">
+
+        <TextView
+            android:id="@+id/displayTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Date"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="35dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginStart="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1"
+            android:layout_below="@+id/displayTv"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="4dp"
+            android:id = "@+id/table"
+            android:background="@drawable/border"
+            >
+            <TableRow>
+                <TextView
+                    android:text="Time"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:background="@drawable/border"/>
+                <TextView
+                    android:text="Activity"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:background="@drawable/border"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="8.00am"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/eight"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:onClick="bisInfo"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="9.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/nine"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:onClick="actInfo"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="10.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/ten"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:onClick="bisInfo"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="11.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/eleven"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:onClick="bisInfo"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="12.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/twelve"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:onClick="bisInfo"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="1.00pm"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/thirteen"
+                    android:background="@drawable/border"
+                    android:onClick="bisInfo"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="2.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/fourteen"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:onClick="bisInfo"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="3.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/fifteen"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:onClick="bisInfo"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="4.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/sixteen"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:onClick="bisInfo"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="5.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/seventeen"
+                    android:background="@drawable/border"
+                    android:onClick="bisInfo"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="6.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/eighteen"
+                    android:background="@drawable/border"
+                    android:onClick="bisInfo"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="7.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/nineteen"
+                    android:background="@drawable/border"
+                    android:onClick="bisInfo"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="8.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/twenty"
+                    android:background="@drawable/border"
+                    android:onClick="bisInfo"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="9.00"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:background="@drawable/border"/>
+
+                <TextView
+                    android:id="@+id/twentyone"
+                    android:background="@drawable/border"
+                    android:onClick="bisInfo"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="10.00" />
+
+                <TextView
+                    android:id="@+id/twentytwo"
+                    android:background="@drawable/border"
+                    android:onClick="bisInfo"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="11.00" />
+
+                <TextView
+                    android:id="@+id/twentythree"
+                    android:background="@drawable/border"
+                    android:onClick="bisInfo"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="12.00" />
+
+                <TextView
+                    android:id="@+id/twentyfour"
+                    android:background="@drawable/border"
+                    android:onClick="bisInfo"
+                    android:gravity="center"
+                    android:padding="8dip"
+                    android:text="none" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+</ScrollView>
