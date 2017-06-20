@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.application.layout.PersonalAdd">
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="New Activity!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/remarks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:onClick="onClick"
+        android:text="ADD!" />
+
+    <EditText
+        android:id="@+id/remarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/timeselect1"
+        android:layout_alignStart="@+id/timeselect1"
+        android:layout_below="@+id/timeselect1"
+        android:ems="10"
+        android:hint="Additional Remarks"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/activityname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Activity Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/dateselect1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/activityname"
+        android:layout_alignStart="@+id/activityname"
+        android:layout_below="@+id/activityname"
+        android:ems="10"
+        android:hint="Set Date" />
+
+    <EditText
+        android:id="@+id/timeselect1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dateselect1"
+        android:layout_alignStart="@+id/dateselect1"
+        android:layout_below="@+id/dateselect1"
+        android:ems="10"
+        android:hint="Set Time" />
+
+</RelativeLayout>
